@@ -1,3 +1,9 @@
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 header {
     display: flex;
     flex-direction: column;
@@ -73,5 +79,5 @@ nav a {
 }
 
 .suggestions.show {
-    display: block;
+    @include flex-center
 }

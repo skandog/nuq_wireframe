@@ -11,6 +11,7 @@ lookingFor.addEventListener("keyup", (e) => {
   // console.log()
   if (e.target.value.length > 2) {
     suggestions.className = "suggestions show";
+    suggestions.innerText = "here are some suggestions";
   } else {
     suggestions.className = "suggestions hide";
   }
