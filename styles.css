@@ -79,5 +79,5 @@ nav a {
 
 .main {
   border: solid red 3px;
-  height: 100vh;
+  min-height: 80vh;
 }/*# sourceMappingURL=styles.css.map */
