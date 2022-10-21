@@ -92,3 +92,9 @@ nav a {
     @include dev-border;
     min-height: 80vh;
 }
+
+.top-banner {
+    @include dev-border;
+    width: 100%;
+    height: 10vh;
+}
