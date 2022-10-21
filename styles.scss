@@ -119,3 +119,20 @@ nav a {
     width: 180px;
     background-color: grey;
 }
+
+.hot-kitchen-deals {
+    height: 90vh;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around
+}
+
+.hot-kitchen-deals-container {
+    @include dev-border(black);
+    height: 200%;
+    width: 85%;
+    padding: 20% 0;
+}
