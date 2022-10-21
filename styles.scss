@@ -106,3 +106,16 @@ nav a {
     padding: 0 15%;
     text-align: center;
 }
+
+.banner-free-delivery {
+    @include flex-center;
+    padding: 2% 8%;
+    justify-content: space-between;
+}
+
+.box-free-delivery {
+
+    height: 50px;
+    width: 180px;
+    background-color: grey;
+}

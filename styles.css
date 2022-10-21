@@ -94,4 +94,18 @@ nav a {
 .banner-para {
   padding: 0 15%;
   text-align: center;
+}
+
+.banner-free-delivery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2% 8%;
+  justify-content: space-between;
+}
+
+.box-free-delivery {
+  height: 50px;
+  width: 180px;
+  background-color: grey;
 }/*# sourceMappingURL=styles.css.map */
