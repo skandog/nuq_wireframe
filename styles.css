@@ -78,13 +78,20 @@ nav a {
 }
 
 .main {
-  border: solid black 3px;
   min-height: 80vh;
 }
 
-.top-banner {
-  border: solid red 3px;
+.banner-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: 100%;
   height: 40vh;
   background-color: grey;
+}
+
+.banner-para {
+  padding: 0 15%;
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */
