@@ -96,5 +96,6 @@ nav a {
 .top-banner {
     @include dev-border(red);
     width: 100%;
-    height: 10vh;
+    height: 40vh;
+    background-color: grey;
 }
