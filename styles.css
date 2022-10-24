@@ -138,9 +138,13 @@ nav a {
 .hot-kitchen-deals-secondary {
   height: 100%;
   width: 45%;
-  background-color: white;
   border: solid black 3px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+.hot-kitchen-deals-secondary-box {
+  height: 100px;
+  background-color: white;
 }/*# sourceMappingURL=styles.css.map */
