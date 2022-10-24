@@ -121,22 +121,23 @@ nav a {
 }
 
 .hot-kitchen-deals-container {
-  border: solid black 3px;
+  border: solid red 3px;
   display: flex;
   justify-content: space-around;
   height: 200%;
-  width: 85%;
+  width: 90%;
   padding: 20% 0;
 }
 
 .hot-kitchen-deals-main {
   border: solid black 3px;
   height: 100%;
+  width: 45%;
 }
 
 .hot-kitchen-deals-secondary {
-  height: 100px;
-  width: 100px;
+  height: 100%;
+  width: 45%;
   background-color: white;
   border: solid black 3px;
   display: flex;

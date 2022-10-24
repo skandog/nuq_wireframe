@@ -131,22 +131,23 @@ nav a {
 }
 
 .hot-kitchen-deals-container {
-    @include dev-border(black);
+    @include dev-border(red);
     display: flex;
     justify-content: space-around;
     height: 200%;
-    width: 85%;
+    width: 90%;
     padding: 20% 0;
 }
 
 .hot-kitchen-deals-main {
     @include dev-border(black);
     height: 100%;
+    width: 45%;
 }
 
 .hot-kitchen-deals-secondary {
-    height: 100px;
-    width: 100px;
+    height: 100%;
+    width: 45%;
     background-color: white;
     @include dev-border(black);
     display: flex;
